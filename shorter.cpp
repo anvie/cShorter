@@ -3,7 +3,7 @@
  *  shorter
  *
  *  Created by Robin Marufi on 5/19/10.
- *  Copyright 2010 __MyCompanyName__. All rights reserved.
+ *  Copyright 2010 Anlab Software. All rights reserved.
  *
  */
 
@@ -64,8 +64,6 @@ shorter_sort(PyObject *self, PyObject* args)
 			rv = 1;
 		}
 	}
-	
-	//printf("item1: %d, item2: %d. rv: %d\n",item1,item2,rv);
 	
 	return Py_BuildValue("i",rv);
 }
@@ -160,10 +158,7 @@ shorter_rank(PyObject *self, PyObject* args)
 	char* title = PyString_AsString(tmp);
 	title = to_lower(title);
 	keywords = to_lower(keywords);
-	
-	//printf("processing: %s\n", title);
-	//printf("title: %s\nkeywords: %s\nabsrank: %d\n", title, keywords, absrank);
-	
+		
 	// perfect match!
 	if (strcmp(title, keywords) == 0) {
 		rank = 2;
@@ -172,10 +167,7 @@ shorter_rank(PyObject *self, PyObject* args)
 	string stdkeywords = strip_unwanted_char(keywords);
 	string stdtitle = strip_unwanted_char(title);
 	
-	//cout << "stdkeywrods: " << stdkeywords.c_str() << endl;
-	//cout << "stdtitle: " << stdtitle.c_str() << endl; 
-	
-	//cout << "splitting keywords `" << stdkeywords.c_str() << "`...\n";
+
 	list<string> splited_keywords = split(stdkeywords,' ');
 	list<string>::iterator it;
 
@@ -188,7 +180,6 @@ shorter_rank(PyObject *self, PyObject* args)
 	}
 	
 	// nilai spesial buat title pertama
-	//list<string> splited_title = split(title, ' ');
 	if (stdtitle.find(*splited_keywords.begin()) != string::npos) {
 		rank += 2;
 	}
@@ -205,7 +196,6 @@ shorter_rank(PyObject *self, PyObject* args)
 
 static PyMethodDef ShorterMethods[] = {
 	
-    {"system", shorter_system, METH_VARARGS, "Execute a shell command."},
 	{"sort", shorter_sort,  METH_VARARGS, "Sort a list faster"},
 	{"rank", shorter_rank,  METH_VARARGS, "Rank a DocList faster"},
     
