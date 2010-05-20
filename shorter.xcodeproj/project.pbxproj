@@ -1,0 +1,73 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		002DBA6211A5B7DB00A83860 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		002DBA6311A5B7DB00A83860 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		00C7B26311A3DF5000EB4BFB /* shorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shorter.h; sourceTree = "<group>"; };
+		00C7B26411A3DF5000EB4BFB /* shorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shorter.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00BBFEA211A3DEF3009CF238 = {
+			isa = PBXGroup;
+			children = (
+				00C7B26311A3DF5000EB4BFB /* shorter.h */,
+				00C7B26411A3DF5000EB4BFB /* shorter.cpp */,
+				002DBA6211A5B7DB00A83860 /* utils.h */,
+				002DBA6311A5B7DB00A83860 /* utils.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		00BBFEA411A3DEF3009CF238 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00BBFEA711A3DEF3009CF238 /* Build configuration list for PBXProject "shorter" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 00BBFEA211A3DEF3009CF238;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		00BBFEA511A3DEF3009CF238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		00BBFEA611A3DEF3009CF238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BBFEA711A3DEF3009CF238 /* Build configuration list for PBXProject "shorter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BBFEA511A3DEF3009CF238 /* Debug */,
+				00BBFEA611A3DEF3009CF238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00BBFEA411A3DEF3009CF238 /* Project object */;
+}

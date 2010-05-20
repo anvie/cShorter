@@ -1,0 +1,68 @@
+// !$*UTF8*$!
+{
+	00BBFEA411A3DEF3009CF238 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		addToTargets = (
+		);
+		codeSenseManager = 00BBFEA911A3DEF3009CF238 /* Code sense */;
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 296062124;
+			PBXWorkspaceStateSaveDate = 296062124;
+		};
+		sourceControlManager = 00BBFEA811A3DEF3009CF238 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	00BBFEA811A3DEF3009CF238 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	00BBFEA911A3DEF3009CF238 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	00C7B26311A3DF5000EB4BFB /* shorter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 580}}";
+			sepNavSelRange = "{465, 0}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	00C7B26411A3DF5000EB4BFB /* shorter.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1495}}";
+			sepNavSelRange = "{165, 0}";
+			sepNavVisRange = "{908, 948}";
+		};
+	};
+}
